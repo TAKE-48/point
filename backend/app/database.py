@@ -32,7 +32,7 @@ class InMemoryDB:
             "description": "香ばしいチョコチップ入りクッキー",
             "code": "CHOCO123",
             "points": 10,
-            "image_url": "https://example.com/images/choco-cookie.jpg"
+            "image_url": "https://placehold.co/600x400/brown/white?text=Chocolate+Cookie"
         })
         
         self.add_product({
@@ -40,14 +40,14 @@ class InMemoryDB:
             "description": "サクサク食感の定番ポテトチップス",
             "code": "POTATO456",
             "points": 5,
-            "image_url": "https://example.com/images/potato-chips.jpg"
+            "image_url": "https://placehold.co/600x400/yellow/black?text=Potato+Chips"
         })
         
         self.add_coupon({
             "name": "商品50%オフクーポン",
             "description": "対象商品を50%オフで購入できるクーポン",
             "points_required": 100,
-            "image_url": "https://example.com/images/50-percent-off.jpg",
+            "image_url": "https://placehold.co/600x400/orange/white?text=50%25+OFF",
             "is_active": True
         })
         
@@ -55,21 +55,21 @@ class InMemoryDB:
             "name": "新商品サンプル",
             "description": "新発売の商品サンプルをプレゼント",
             "points_required": 50,
-            "image_url": "https://example.com/images/free-sample.jpg",
+            "image_url": "https://placehold.co/600x400/green/white?text=Free+Sample",
             "is_active": True
         })
         
         self.add_news({
             "title": "新商品発売のお知らせ",
             "content": "来月より新商品「プレミアムチョコレートクッキー」を発売します。期間限定で通常の2倍のポイントがもらえるキャンペーンも実施予定です。",
-            "image_url": "https://example.com/images/new-product.jpg",
+            "image_url": "https://placehold.co/600x400/blue/white?text=New+Product",
             "is_published": True
         })
         
         self.add_news({
             "title": "夏のポイント2倍キャンペーン",
             "content": "7月1日から8月31日までの期間中、全商品のポイントが2倍になります。この機会にぜひお買い求めください。",
-            "image_url": "https://example.com/images/summer-campaign.jpg",
+            "image_url": "https://placehold.co/600x400/red/white?text=Summer+Campaign",
             "is_published": True
         })
     
